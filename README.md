@@ -6,7 +6,7 @@ You may choose to additionally provide direction indicators (i/o/io) in the inpu
 ## Script parameters
 The following parameters and default values can be changed in the body of the script. The user is not prompted for some of these every time to save time.
 
-#### gen-if.py [5-26]:
+#### gen-if.py [27-45]:
 ```py
 # Default paramters, feel free to change
 

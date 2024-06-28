@@ -1,0 +1,12 @@
+// Clock and reset
+logic			clk; i!
+logic			resetn; i!
+
+// Data, address, and write strobe signals
+logic	[31:0]	data; o
+logic	[31:0]	addr; o
+logic	[ 3:0]	wstrb; o
+
+// Handshaking signals
+logic			valid; o
+logic			ready; i
