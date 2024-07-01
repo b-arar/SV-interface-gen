@@ -1,7 +1,7 @@
 # SV-interface-gen
 This script, written in Python, automatically generates SystemVerilog interface files from a list of signals provided as an input file. By default, the script generates a synchronous master port (w/ clocking), a synchronous slave port (w/ clocking), an asynchronous master port and an asynchronous slave port. You can opt to change this (along with the names of the blocks) when the script prompts you on whether to use defaults. The default skews can also be changed while the script is running. Other parameters like signal name directional modifiers can be changed by editing the script directly. This was done to make the script as simple and quick to run as possible as you make adjustments to the signal list.
 
-You may choose to additionally provide direction indicators (i/o/io) in the input file to avoid inputting them as the script runs. Additionally, adding `!` to the direction indicators marks the signal to be added to the port list of the interface itself (as opposed to an item within it).
+You may choose to provide direction indicators (i/o/io) in the input file to avoid inputting them as the script runs. Additionally, appending `!` to the direction indicators marks the signal to be added to the port list of the interface itself (as opposed to an item within it).
 
 ## Script parameters
 The following parameters and default values can be changed in the body of the script. The user is not prompted for some of these every time to save time.
